@@ -1,0 +1,16 @@
+[package]
+name = "mac-app-remover"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "mac-app-remover"
+path = "src/main.rs"
+
+[[bin]]
+name = "mac-app-remover-gui"
+path = "src/bin/gui.rs"
+
+[dependencies]
+eframe = "0.31"
+rfd = "0.15"
